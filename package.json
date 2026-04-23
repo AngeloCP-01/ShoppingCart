@@ -1,7 +1,7 @@
 {
   "name": "shopping-cart-exercise",
   "version": "1.0.0",
-  "description": "Amaysim shopping cart exercise — demonstrates a flexible pricing-rules engine using the Strategy pattern.",
+  "description": "Amaysim shopping cart exercise",
   "main": "src/ShoppingCart.js",
   "scripts": {
     "test": "jest",

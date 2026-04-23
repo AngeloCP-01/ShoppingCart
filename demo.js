@@ -1,21 +1,7 @@
-// ============================================================================
-// DEMO — runs the four exercise scenarios and prints them to the console
-// ============================================================================
-//
-// This file isn't required by the exercise, but it lets a human eyeball that
-// the cart actually works without needing to read test output. Run it with:
-//
-//     node demo.js
-//
-// The tests in `tests/ShoppingCart.test.js` are the source of truth for
-// correctness — this demo is just for human-friendly inspection.
-// ============================================================================
-
+// node demo.js to execute
 const ShoppingCart = require("./src/ShoppingCart");
 const { defaultPricingRules } = require("./src/rules");
 
-// Run one scenario: a short description, a function that adds items, and
-// the expected total (so we can visually confirm we hit it).
 function runScenario(name, addItems, expectedTotal) {
   const cart = new ShoppingCart(defaultPricingRules);
   addItems(cart);
@@ -30,14 +16,6 @@ function runScenario(name, addItems, expectedTotal) {
     `Total: $${cart.total.toFixed(2)}   (expected $${expectedTotal.toFixed(2)} — ${match})`,
   );
 }
-
-runScenario(
-  "Testing Product 1",
-  (cart) => {
-    cart.add("test_product");
-  },
-  4.9,
-);
 
 runScenario(
   "Scenario 1 — 3 × ult_small, 1 × ult_large",
