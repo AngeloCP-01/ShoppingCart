@@ -43,15 +43,4 @@ Your task is to implement a shopping cart that satisfies the requirements descri
 |    3     | 1 x Unlimited 1 GB<br>2 X Unlimited 2 GB                               | $84.70              | 1 x Unlimited 1 GB<br>2 X Unlimited 2 GB<br>2 X 1 GB Data-pack |
 |    4     | 1 x Unlimited 1 GB<br>1 x 1 GB Data-pack<br>'I<3AMAYSIM' Promo Applied | $31.32              | 1 x Unlimited 1 GB<br>1 x 1 GB Data-pack                       |
 
-## Technical Guidance
 
-- Use **javascript**
-- Don't build guis etc; we're more interested in your approach to solving the given task, not how shiny it looks
-- Don't use any frameworks, or any external libraries/jars (unless they're for testing)
-- Please include instructions on how to run the application & any tests
-
-## How to submit?
-
-1. When you're happy with your changes, push them into your repo.
-2. Let the recruiter know that you're done, and what your github username is.
-3. Sit back and relax. We'll review your submission and get back to you 😃
